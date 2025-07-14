@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>title</title>
+</head>
+
+<style>
+    table{
+        width: 100%;
+        border-collapse: collapse;
+        margin-bottom: 20px;
+        margin-top: 3rem;
+    }
+    
+    th, td{
+        border: 1px solid #ddd;
+        padding: 8px;
+        text-align: center;
+    }
+
+    th{
+        background-color: #f2f2f2;
+    }
+    
+    tr:hover{
+        background-color: #ddd;
+    }
+
+    .botão{
+        background-color: #ddd;
+        color: black;
+        padding: 10px 15px;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        font-weight: bold;
+    }
+
+    .botão:hover{
+        background-color: darkgray;
+        color: white;
+    }
+
+    .formulario{
+        width: 500px;
+        margin: auto;
+        padding: 30px;
+        border: 1px solid #ddd;
+        border-radius: 10px;
+    }
+
+    .label1{
+        display: block;
+        margin-bottom: 6px;
+    }
+
+    .input1{
+        width: 100%;
+        padding: 8px;
+        margin-bottom: 10px;
+        border: 1px solid #ddd;
+        border-radius: 5px;
+    }
+</style>
+
+<body>
+    <form action class="formulario"
+
+        <label for class="label1">Nome:</label>
+        <input type class="input1" name="Nome" id="Nome">
+
+        <label for class="label1">CPF:</label>
+        <input type class="input1" name="CPF" id="CPF">
+
+        <label for class="label1">Data de nascimento:</label>
+        <input type class="input1" name="Data de nascimento" id="Data de nascimento">
+
+        <label for class="label1">Telefone:</label>
+        <input type class="input1" name="Telefone" id="Telefone">
+
+        <label for class="label1">Como conheceu a barbearia:</label>
+        <input type class="input1" name="Como conheceu a barbearia" id="Como conheceu a barbearia">
+        
+        <button class="botão"> Salvar </button>
+
+    </form>
+
+    <table>
+        <tr>
+            <th>Tipo de Corte</th>
+            <th>Descrição</th>
+            <th>Tempo de Atendimento</th>
+            <th>Valor</th>
+        </tr>
+        <tr>
+            <td>Buzz Cut</td>
+            <td>Corte de comprimento curto uniforme realizado com máquina e tesoura. Ideal para quem procura um corte rápido e fácil.</td>
+            <td>15 - 30 minutos</td>
+            <td>R$45,00</tr>
+        </tr>
+        <tr>
+            <td>Fade/Degradê</td>
+            <td>Cria uma transição suave entre diferentes comprimentos do cabelo. Pode ser adaptado a diferentes tipos de cabelo.</td>
+            <td>20 - 45 minutos</td>
+            <td>R$65,00</td>
+        </tr>
+        <tr>
+            <td>Mullet Moderno</td>
+            <td>Combina comprimentos diferentes com camadas e texturas. Mantem cabelos mais curtos na frente e laterais, e mais longos na parte de trás.</td>
+            <td>30 - 60 minutos</td>
+            <td>R$80,00</td>
+        </tr>
+        <tr>
+            <td>Old Money</td>
+            <td>Comprimento médio a curto, com foco no topo da cabeça, e laterais e nucas bem aparadas. Transmite sofisticação e modernidade.</td>
+            <td>30 - 60 minutos</td>
+            <td>R$90,00</td>
+        </tr>
+        
+    
+    </table>
+
+</body>
+</html>
