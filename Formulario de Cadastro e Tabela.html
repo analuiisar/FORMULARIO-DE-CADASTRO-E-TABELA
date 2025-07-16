@@ -4,86 +4,28 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>title</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 
-<style>
-    table{
-        width: 100%;
-        border-collapse: collapse;
-        margin-bottom: 20px;
-        margin-top: 3rem;
-    }
-    
-    th, td{
-        border: 1px solid #ddd;
-        padding: 8px;
-        text-align: center;
-    }
-
-    th{
-        background-color: #f2f2f2;
-    }
-    
-    tr:hover{
-        background-color: #ddd;
-    }
-
-    .botão{
-        background-color: #ddd;
-        color: black;
-        padding: 10px 15px;
-        border: none;
-        border-radius: 5px;
-        cursor: pointer;
-        font-weight: bold;
-    }
-
-    .botão:hover{
-        background-color: darkgray;
-        color: white;
-    }
-
-    .formulario{
-        width: 500px;
-        margin: auto;
-        padding: 30px;
-        border: 1px solid #ddd;
-        border-radius: 10px;
-    }
-
-    .label1{
-        display: block;
-        margin-bottom: 6px;
-    }
-
-    .input1{
-        width: 100%;
-        padding: 8px;
-        margin-bottom: 10px;
-        border: 1px solid #ddd;
-        border-radius: 5px;
-    }
-</style>
-
 <body>
-    <form action class="formulario"
+    <form action class="formulario">
 
-        <label for class="label1">Nome:</label>
+        <label for="Nome" class="label1">Nome:</label>
         <input type class="input1" name="Nome" id="Nome">
 
-        <label for class="label1">CPF:</label>
+        <label for="CPF" class="label1">CPF:</label>
         <input type class="input1" name="CPF" id="CPF">
 
-        <label for class="label1">Data de nascimento:</label>
+        <label for="Data de nascimento" class="label1">Data de nascimento:</label>
         <input type class="input1" name="Data de nascimento" id="Data de nascimento">
 
-        <label for class="label1">Telefone:</label>
+        <label for="Telefone" class="label1">Telefone:</label>
         <input type class="input1" name="Telefone" id="Telefone">
 
-        <label for class="label1">Como conheceu a barbearia:</label>
+        <label for="Como conheceu a barbearia" class="label1">Como conheceu a barbearia:</label>
         <input type class="input1" name="Como conheceu a barbearia" id="Como conheceu a barbearia">
         
-        <button class="botão"> Salvar </button>
+        <button class="botao"> Salvar </button>
 
     </form>
 
